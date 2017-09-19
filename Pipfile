@@ -9,7 +9,22 @@ python_version = "3.6"
 
 [packages]
 
-# testpackage = "*"
+Django = "~=1.11"
+djangorestframework = "~=3.6.3"
+django-cors-headers = "~=1.2.0"
+
+dj-database-url = "==0.4.2"
+psycopg2 = "~=2.6"
+
+PyYAML = "~=3.12"
+langdetect = "~=1.0.7"
+profanityfilter = "*"
+requests = "*"
+orderedset = "*"
+
+whitenoise = "~=3.3"
+gunicorn = "~=19.7"
+bugsnag = "*"
 
 [dev-packages]
 

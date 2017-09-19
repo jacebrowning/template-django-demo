@@ -1,4 +1,4 @@
-__project__ = 'TemplateDemo'
+__project__ = 'demo_project'
 __version__ = '0.0.0'
 
 VERSION = "{0} v{1}".format(__project__, __version__)
