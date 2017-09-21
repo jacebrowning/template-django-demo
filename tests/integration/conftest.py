@@ -1,2 +1,0 @@
-from .fixtures import *
-
