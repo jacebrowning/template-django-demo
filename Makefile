@@ -100,24 +100,24 @@ check: install ## Run static analysis
 
 .PHONY: test
 test: install ## Run all tests
-	@ if test -e $(FAILURES); then $(RUN) py.test tests/unit tests/integration; fi
+	@ if test -e $(FAILURES); then $(RUN) py.test demo_project tests/integration; fi
 	@ rm -rf $(FAILURES)
-	$(RUN) py.test tests/unit tests/integration
-	$(RUN) coverage.space jacebrowning/demo_project overall
+	$(RUN) py.test demo_project tests/integration
+	$(RUN) coverage.space jacebrowning/template-django-demo overall
 
 .PHONY: test-unit
 test-unit: install
-	@ if test -e $(FAILURES); then $(RUN) py.test tests/unit; fi
+	@ if test -e $(FAILURES); then $(RUN) py.test demo_project; fi
 	@ rm -rf $(FAILURES)
-	$(RUN) py.test tests/unit
-	$(RUN) coverage.space jacebrowning/demo_project unit
+	$(RUN) py.test demo_project
+	$(RUN) coverage.space jacebrowning/template-django-demo unit
 
 .PHONY: test-integration
 test-integration: install
 	@ if test -e $(FAILURES); then $(RUN) py.test tests/integration; fi
 	@ rm -rf $(FAILURES)
 	$(RUN) py.test tests/integration
-	$(RUN) coverage.space jacebrowning/demo_project integration
+	$(RUN) coverage.space jacebrowning/template-django-demo integration
 
 .PHONY: test-system
 test-system: install
