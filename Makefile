@@ -82,8 +82,8 @@ PYTHON_PACKAGES := config demo_project
 
 FAILURES := .cache/v/cache/lastfailed
 
-ifndef DISABLE_COVERAGE
-PYTEST_OPTIONS := --cov=demo_project --cov-report=html --cov-report=term-missing:skip-covered
+ifdef DISABLE_COVERAGE
+PYTEST_OPTIONS := --no-cov
 endif
 
 .PHONY: check
