@@ -15,14 +15,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.postgres',
-    'rest_framework',
-    'corsheaders',
+    'django.contrib.sites',
 
     'demo_project.core',
-
     'demo_project.demo_app',
-
     'demo_project.api',
+
+    'allauth',
+    'allauth.account',
+    'rest_framework',
+    'rest_framework_swagger'
 ]
 
 MIDDLEWARE = [
@@ -75,7 +77,7 @@ LOGGING = {
     'loggers': {
         'django': {
             'handlers':['console'],
-            'level':'DEBUG',
+            'level':'INFO',
         },
         'demo_app': {
             'handlers': ['console'],
@@ -83,6 +85,8 @@ LOGGING = {
         },
     }
 }
+
+SITE_ID = 1
 
 ###############################################################################
 # Auth

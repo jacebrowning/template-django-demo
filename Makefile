@@ -78,12 +78,12 @@ reset: install ## Database | Create a new database, migrate, and seed it
 
 # VALIDATION TARGETS ##########################################################
 
-PYTHON_PACKAGES := config demo_project tests
+PYTHON_PACKAGES := config demo_project
 
 FAILURES := .cache/v/cache/lastfailed
 
 ifndef DISABLE_COVERAGE
-PYTEST_OPTIONS := --cov=demo_project --cov-report=html --cov-report=term-missing:skip-covered --no-cov-on-fail
+PYTEST_OPTIONS := --cov=demo_project --cov-report=html --cov-report=term-missing:skip-covered
 endif
 
 .PHONY: check
@@ -91,8 +91,8 @@ check: check-backend ## Run static analysis
 
 .PHONY: check-backend
 check-backend: install
-	$(RUN) pylint $(PYTHON_PACKAGES) tests/system --rcfile=.pylint.ini
-	$(RUN) pycodestyle $(PYTHON_PACKAGES) tests/system --config=.pycodestyle.ini
+	$(RUN) pylint $(PYTHON_PACKAGESv) tests --rcfile=.pylint.ini
+	$(RUN) pycodestyle $(PYTHON_PACKAGES) tests --config=.pycodestyle.ini
 
 .PHONY: check-frontend
 check-frontend: install
@@ -107,7 +107,7 @@ test-backend: test-backend-all
 .PHONY: test-backend-unit
 test-backend-unit: install
 	@- mv $(FAILURES) $(FAILURES).bak
-	$(RUN) py.test $(PYTHON_PACKAGES) $(PYTEST_OPTIONS)
+	$(RUN) py.test demo_project $(PYTEST_OPTIONS)
 	@- mv $(FAILURES).bak $(FAILURES)
 	$(RUN) coverage.space jacebrowning/template-django-demo unit
 
