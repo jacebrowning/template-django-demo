@@ -78,7 +78,7 @@ LOGGING = {
             'handlers':['console'],
             'level':'INFO',
         },
-        'demo_app': {
+        'demo_project': {
             'handlers': ['console'],
             'level': 'DEBUG',
         },
