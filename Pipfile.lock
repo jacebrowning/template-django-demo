@@ -566,10 +566,10 @@
         },
         "selenium": {
             "hashes": [
-                "sha256:fb6a2a5d80bf6f1de145d3a92a5d1331755e43aae07cff7b2588aa6e66fa8eaf",
-                "sha256:9563021c5cba084041e13c218eb531d9c6920dcfa0ba1024bb5bf2b6c0df1797"
+                "sha256:d53964d00170a5f3630f1af26bbe6c952225c4c71a1ec250b95550dde7d93e32",
+                "sha256:70be7e090042303564ff48bedef0b34477d463056a2d282c1dbd4c4c180ef8e1"
             ],
-            "version": "==3.6.0"
+            "version": "==3.7.0"
         },
         "six": {
             "hashes": [
