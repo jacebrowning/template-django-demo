@@ -13,7 +13,7 @@ else:
 
 
 watch_paths = [
-    "backend",
+    "demo_project",
     "config",
     "frontend",
     "tests",

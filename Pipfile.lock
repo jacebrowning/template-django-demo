@@ -545,10 +545,10 @@
         },
         "pytest-randomly": {
             "hashes": [
-                "sha256:27caa626b8e3952c1407bc47d17925e82b27b1fc7f23901d3836622678f60776",
-                "sha256:40da54f2453ba7f165aca156ee7a68533b4f7f57d3b6fe4b338944fe273c60c5"
+                "sha256:5e25d78aa19ddc007b2eb3b1906a9076aba004074f4ac8ce8e083dd38108a15b",
+                "sha256:750700dc0e78b62ecbd3fe5a7318b326fe5313776fe317d0a4d641f5d2b4a30b"
             ],
-            "version": "==1.2.1"
+            "version": "==1.2.2"
         },
         "python-termstyle": {
             "hashes": [
