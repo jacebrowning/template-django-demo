@@ -109,7 +109,7 @@ test-backend: test-backend-all
 .PHONY: test-backend-unit
 test-backend-unit: install
 	@- mv $(FAILURES) $(FAILURES).bak
-	$(RUN) py.test demo_project $(PYTEST_OPTIONS)
+	$(RUN) py.test $(PYTHON_PACKAGES) $(PYTEST_OPTIONS)
 	@- mv $(FAILURES).bak $(FAILURES)
 	$(RUN) coverage.space jacebrowning/template-django-demo unit
 
