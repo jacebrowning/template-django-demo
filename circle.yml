@@ -27,14 +27,14 @@ jobs:
 
       # Restore cache
       - type: cache-restore
-        key: pipenv-\{\{ checksum "Pipfile.lock" \}\}
+        key: pipenv-{{ checksum "Pipfile.lock" }}
 
       # Install project dependencies
       - run: make install
 
       # Store cache
       - type: cache-save
-        key: pipenv-\{\{ checksum "Pipfile.lock" \}\}
+        key: pipenv-{{ checksum "Pipfile.lock" }}
         paths:
           - .venv
 
