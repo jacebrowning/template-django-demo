@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "096cd28e2c4abd1743e8700cb203802620fd6e4cb67cf68ecca6783a37bee044"
+            "sha256": "c2fedbee877cc441bfc91a73b84768380c9bc0ed86a551336d130d9756eef4cd"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -22,6 +22,7 @@
         },
         "sources": [
             {
+                "name": "pypi",
                 "url": "https://pypi.python.org/simple",
                 "verify_ssl": true
             }
@@ -72,10 +73,10 @@
         },
         "django": {
             "hashes": [
-                "sha256:75ce405d60f092f6adf904058d023eeea0e6d380f8d9c36134bac73da736023d",
-                "sha256:8918e392530d8fc6965a56af6504229e7924c27265893f3949aa0529cd1d4b99"
+                "sha256:fad46f44f6f4de66aacaa92e7753dbc4fe3ae834aa2daffaca0bf16c64798186",
+                "sha256:fed3e79bb5a3a8d5eb054c7a1ec1de229ef3f43335a67821cc3e489e9582f711"
             ],
-            "version": "==1.11.7"
+            "version": "==1.11.8"
         },
         "django-allauth": {
             "hashes": [
@@ -538,10 +539,10 @@
         },
         "pytest-expecter": {
             "hashes": [
-                "sha256:afa9ee0ece1715d25019cdb8221e57db14118c1551da17724a4e3ee895f8c1aa",
-                "sha256:bccbe53d5113560744a30e2db2d0d843b9a226ab2e449ccd2844a20f17769153"
+                "sha256:aede3a71adf77a6ef06603794d47f965684cf01e3e226bc5df68cf80b416012d",
+                "sha256:67fe8944a3fc7300145f42f36628e8e592c064d9e02614473fe59e2e62866547"
             ],
-            "version": "==0.2.2.post6"
+            "version": "==1.0.post1"
         },
         "pytest-randomly": {
             "hashes": [
@@ -566,10 +567,10 @@
         },
         "selenium": {
             "hashes": [
-                "sha256:d53964d00170a5f3630f1af26bbe6c952225c4c71a1ec250b95550dde7d93e32",
-                "sha256:70be7e090042303564ff48bedef0b34477d463056a2d282c1dbd4c4c180ef8e1"
+                "sha256:af448c15b3225056cd406b435cda10bfcee250460a4811e4fd8b21be9f61626c",
+                "sha256:3af07d7a4b5d523540fa4f32902b9dec15e0379862406aef974729f42411053d"
             ],
-            "version": "==3.7.0"
+            "version": "==3.8.0"
         },
         "six": {
             "hashes": [
