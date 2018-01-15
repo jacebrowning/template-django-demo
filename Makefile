@@ -153,6 +153,10 @@ run-prod: .envrc install ## Run the application (simulate production)
 
 # RELEASE TARGETS #############################################################
 
+.PHONY: build
+build: install
+	# TODO: Build frontend code for production if applicable
+
 .PHONY: promote
 promote: install
 	TEST_SITE=https://staging.demo_project.com $(RUN) pytest tests/system
