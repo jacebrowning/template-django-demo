@@ -5,7 +5,7 @@ jobs:
     working_directory: ~/demo_project
 
     docker:
-      - image: maketested/python-clojure:latest
+      - image: maketested/python-node:latest
         environment:
           PIPENV_VENV_IN_PROJECT: true
           DATABASE_URL: postgres://circleci:@127.0.0.1:5432/demo_project_test
