@@ -272,10 +272,7 @@
             "version": "==1.11.0"
         },
         "text-unidecode": {
-            "hashes": [
-                "sha256:02efd86b9c0f489f858d8cead62e94d3760dab444054b258734716f7602330a3",
-                "sha256:d0afd5e8a7ac69bfb1372e1bbfa3c63c22e3db8ae1284690e96b45c4430d08d0"
-            ],
+            "hashes": [],
             "version": "==1.1"
         },
         "uritemplate": {
