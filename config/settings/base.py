@@ -13,20 +13,23 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     'django.contrib.postgres',
+    'django.contrib.sessions',
     'django.contrib.sites',
+    'django.contrib.staticfiles',
 
     'allauth',
     'allauth.account',
+    'corsheaders',
+    'memoize',
     'rest_framework',
     'rest_framework_swagger',
 
+    'demo_project.api',
     'demo_project.core',
     'demo_project.demo_app',
-    'demo_project.api',
+
 ]
 
 MIDDLEWARE = [

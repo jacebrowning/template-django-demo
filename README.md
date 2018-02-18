@@ -27,7 +27,7 @@ $ make doctor
 
 Create a database:
 
-```sh
+```
 $ createdb demo_project_dev
 ```
 
