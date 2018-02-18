@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2a318afcfd862fea0635fce23de2db381269d2b83a5908e3157cabe691bddc68"
+            "sha256": "fe06eddd6426c3da9be23b5f81d25b697e189977f723d6f015bf6c29b4939022"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -18,7 +18,7 @@
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6.3"
+            "python_version": "3.6.4"
         },
         "sources": [
             {
@@ -84,12 +84,31 @@
             ],
             "version": "==0.35.0"
         },
+        "django-cors-headers": {
+            "hashes": [
+                "sha256:c4ef22ce8734bb88cee381dcbb04dcca05bcdaffb09367a504bd388d2a6872aa",
+                "sha256:dd1138c8bf0efb54ff65f48f6bce0365810019e6e9766646b531f36ae14f6aa7"
+            ],
+            "version": "==1.2.2"
+        },
         "django-grappelli": {
             "hashes": [
                 "sha256:e867d4b5df0e2ecebf50feba5723284f6441a9a76541c6840378020540b9570a",
                 "sha256:a0ac5a5f1eef64a0147c3dade02f55667a01aa7e84b93c2e8f6195117b980516"
             ],
             "version": "==2.11.1"
+        },
+        "django-memoize": {
+            "hashes": [
+                "sha256:ad969e02f25dab6484626cc3b023c2ff17004b0e3bbd8386467865826bc2bc6c"
+            ],
+            "version": "==2.1.0"
+        },
+        "django-redis-cache": {
+            "hashes": [
+                "sha256:2b4e3510bbcaf3d331975717afd6f15a36fbaf7622504599d2727dc99f90c64d"
+            ],
+            "version": "==1.7.1"
         },
         "django-rest-swagger": {
             "hashes": [
@@ -223,6 +242,13 @@
                 "sha256:410bcd1d6409026fbaa65d9ed33bf6dd8b1e94a499e32168acfc7b332e4095c0"
             ],
             "version": "==2018.3"
+        },
+        "redis": {
+            "hashes": [
+                "sha256:8a1900a9f2a0a44ecf6e8b5eb3e967a9909dfed219ad66df094f27f7d6f330fb",
+                "sha256:a22ca993cea2962dbb588f9f30d0015ac4afcc45bee27d3978c0dbe9e97c6c0f"
+            ],
+            "version": "==2.10.6"
         },
         "requests": {
             "hashes": [
@@ -488,6 +514,13 @@
             ],
             "version": "==1.3.1"
         },
+        "macfsevents": {
+            "hashes": [
+                "sha256:95d3cddaf8a42435bfbd50087785ee9e3ebb8325242cfd06a88ea21f85bcb56f"
+            ],
+            "markers": "sys_platform == 'darwin'",
+            "version": "==0.7"
+        },
         "mccabe": {
             "hashes": [
                 "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42",
@@ -542,6 +575,7 @@
             "hashes": [
                 "sha256:85737aab9fc69cf59dc9fe831adbe94ac224944c05e297c98de3c2413f253530"
             ],
+            "markers": "sys_platform == 'darwin'",
             "version": "==1.6.1"
         },
         "pytest": {
