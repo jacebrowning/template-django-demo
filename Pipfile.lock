@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b9908c7b4513b6670fb713c1b23762d090887e94652db3444c4763ba00b5e923"
+            "sha256": "2b795d5267432bc2614957804ec0228c756c19262c74fb238be3e7284d394fb7"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6.4"
+            "python_version": "3.6"
         },
         "sources": [
             {
@@ -160,10 +160,10 @@
         },
         "minilog": {
             "hashes": [
-                "sha256:1cd8ba9723280e5db952cbf6eb28823e2b344b6a984188ccf78c116dba944e67",
-                "sha256:9a496a068231ed670ae254d140861c6c63f82c11d1679af65de77ee42f58d584"
+                "sha256:dcce90572ae3013304b0b10523a39b2cba71735a7d5cbd978bb9eae24e212570",
+                "sha256:f81af54cccff05b1a1ec9c5a6eae3edd20ca84709be2c00627614f1c7537758c"
             ],
-            "version": "==0.1"
+            "version": "==0.2"
         },
         "oauthlib": {
             "hashes": [
@@ -333,7 +333,7 @@
                 "sha256:9d98697f088eb1b0fa451391f91afb5e3ebde16bbdb272819fd091151fda4f1a",
                 "sha256:f0b0e4eba956de51238e17573b7087e852dfe9854afd2e9c873f73fc0ca0a6dd"
             ],
-            "markers": "python_version == '2.7'",
+            "markers": "python_version < '3.4'",
             "version": "==1.5"
         },
         "backports.shutil-get-terminal-size": {
@@ -370,7 +370,6 @@
                 "sha256:463f8483208e921368c9f306094eb6f725c6ca42b0f97e313cb5d5512459feda",
                 "sha256:48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1"
             ],
-            "markers": "sys_platform == 'win32'",
             "version": "==0.3.9"
         },
         "configparser": {
