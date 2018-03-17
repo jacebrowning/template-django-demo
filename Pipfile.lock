@@ -631,11 +631,11 @@
         },
         "pytest-expecter": {
             "hashes": [
-                "sha256:4472ea85240c5394c427a1ca1cedd6c7427d02b589845360744f04420cd21e94",
-                "sha256:aa455bbb79c10eac0864fc37fb28de2932e3af61da122e2732a0634fa0d8077c"
+                "sha256:9d579961379026f5c2211070125f042f882fc0db00488b10ebbdf79491679ff6",
+                "sha256:efd92985547f2f2b170d8b7459d00075d9694d3ebdabfb41dbb7f71d9183d5e0"
             ],
             "index": "pypi",
-            "version": "==1.1"
+            "version": "==1.2"
         },
         "pytest-randomly": {
             "hashes": [
