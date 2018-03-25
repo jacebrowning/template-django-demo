@@ -1,0 +1,6 @@
+[
+  "demo_project/core/tests/test_helpers.py::test_placeholder",
+  "demo_project/demo_app/tests/test_helpers.py::test_placeholder",
+  "demo_project/demo_app/tests/test_models.py::test_placeholder",
+  "tests/integration/test_api_root.py::describe_root::describe_GET::it_always_returns_200"
+]
