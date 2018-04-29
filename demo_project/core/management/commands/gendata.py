@@ -7,8 +7,9 @@ from django.contrib.sites.models import Site
 from django.core.management.base import BaseCommand
 from django.db.utils import IntegrityError
 
-from faker import Faker
 import log
+from faker import Faker
+
 
 # from demo_project.demo_app import models
 
