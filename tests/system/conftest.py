@@ -6,8 +6,8 @@ from contextlib import suppress
 
 import log
 import pytest
-from splinter import Browser
 from selenium.common.exceptions import WebDriverException
+from splinter import Browser
 
 from . import user
 
