@@ -18,8 +18,6 @@ root = routers.DefaultRouter()
 
 urlpatterns = [
     url('^', include(root.urls)),
-
     url('^client/', include('rest_framework.urls')),
-
     url('^docs/', get_swagger_view(title="demo_project API")),
 ]

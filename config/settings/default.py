@@ -10,7 +10,6 @@ PROJECT_ROOT = os.path.dirname(CONFIG_ROOT)
 
 INSTALLED_APPS = [
     'grappelli',
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -19,18 +18,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.staticfiles',
-
     'allauth',
     'allauth.account',
     'corsheaders',
     'memoize',
     'rest_framework',
     'rest_framework_swagger',
-
     'demo_project.api',
     'demo_project.core',
     'demo_project.demo_app',
-
 ]
 
 MIDDLEWARE = [
@@ -58,9 +54,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-            ],
+            ]
         },
-    },
+    }
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
@@ -68,28 +64,18 @@ WSGI_APPLICATION = 'config.wsgi.application'
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
-    'formatters': {
-        'simple': {
-            'format': '%(levelname)s: %(message)s'
-        },
-    },
+    'formatters': {'simple': {'format': '%(levelname)s: %(message)s'}},
     'handlers': {
         'console': {
             'level': 'INFO',
             'class': 'logging.StreamHandler',
             'formatter': 'simple',
-        },
+        }
     },
     'loggers': {
-        'django': {
-            'handlers': ['console'],
-            'level': 'INFO',
-        },
-        'demo_project': {
-            'handlers': ['console'],
-            'level': 'DEBUG',
-        },
-    }
+        'django': {'handlers': ['console'], 'level': 'INFO'},
+        'demo_project': {'handlers': ['console'], 'level': 'DEBUG'},
+    },
 }
 
 SITE_ID = 1
