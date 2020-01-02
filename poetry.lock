@@ -58,7 +58,7 @@ description = "Screen-scraping library"
 name = "beautifulsoup4"
 optional = false
 python-versions = "*"
-version = "4.8.1"
+version = "4.8.2"
 
 [package.dependencies]
 soupsieve = ">=1.2"
@@ -228,7 +228,7 @@ description = "A jazzy skin for the Django Admin-Interface."
 name = "django-grappelli"
 optional = false
 python-versions = "*"
-version = "2.13.2"
+version = "2.13.3"
 
 [[package]]
 category = "dev"
@@ -554,7 +554,7 @@ description = "library with cross-python path, ini-parsing, io, code, log facili
 name = "py"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "1.8.0"
+version = "1.8.1"
 
 [[package]]
 category = "dev"
@@ -938,9 +938,9 @@ attrs = [
     {file = "attrs-19.3.0.tar.gz", hash = "sha256:f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72"},
 ]
 beautifulsoup4 = [
-    {file = "beautifulsoup4-4.8.1-py2-none-any.whl", hash = "sha256:5279c36b4b2ec2cb4298d723791467e3000e5384a43ea0cdf5d45207c7e97169"},
-    {file = "beautifulsoup4-4.8.1-py3-none-any.whl", hash = "sha256:dcdef580e18a76d54002088602eba453eec38ebbcafafeaabd8cab12b6155d57"},
-    {file = "beautifulsoup4-4.8.1.tar.gz", hash = "sha256:6135db2ba678168c07950f9a16c4031822c6f4aec75a65e0a97bc5ca09789931"},
+    {file = "beautifulsoup4-4.8.2-py2-none-any.whl", hash = "sha256:e1505eeed31b0f4ce2dbb3bc8eb256c04cc2b3b72af7d551a4ab6efd5cbe5dae"},
+    {file = "beautifulsoup4-4.8.2-py3-none-any.whl", hash = "sha256:9fbb4d6e48ecd30bcacc5b63b94088192dcda178513b2ae3c394229f8911b887"},
+    {file = "beautifulsoup4-4.8.2.tar.gz", hash = "sha256:05fd825eb01c290877657a56df4c6e4c311b3965bda790c613a3d6fb01a5462a"},
 ]
 black = [
     {file = "black-19.3b0-py36-none-any.whl", hash = "sha256:09a9dcb7c46ed496a9850b76e4e825d6049ecd38b611f1224857a79bd985a8cf"},
@@ -1028,7 +1028,7 @@ django-cors-headers = [
     {file = "django_cors_headers-3.2.0-py3-none-any.whl", hash = "sha256:a8b2772582e8025412f4d4b54b617d8b707076ffd53a2b961bd24f10ec207a7c"},
 ]
 django-grappelli = [
-    {file = "django-grappelli-2.13.2.tar.gz", hash = "sha256:f20c87cd80cd4e7700988e3d80b6e3485a3a273a62aab34a7fd6117c17bd9593"},
+    {file = "django-grappelli-2.13.3.tar.gz", hash = "sha256:cf0d1289608cd74dd603bba840dcf120bbbd47c1da9939079e3daade1d8c33d8"},
 ]
 django-livereload-server = [
     {file = "django-livereload-server-0.3.2.tar.gz", hash = "sha256:6c8da1cb356d9a7fd044d0a50342574aad168522d5d8d25bbdc4ddd9fd196eab"},
@@ -1228,8 +1228,8 @@ psycopg2-binary = [
     {file = "psycopg2_binary-2.8.4-cp38-cp38-win_amd64.whl", hash = "sha256:b8f490f5fad1767a1331df1259763b3bad7d7af12a75b950c2843ba319b2415f"},
 ]
 py = [
-    {file = "py-1.8.0-py2.py3-none-any.whl", hash = "sha256:64f65755aee5b381cea27766a3a147c3f15b9b6b9ac88676de66ba2ae36793fa"},
-    {file = "py-1.8.0.tar.gz", hash = "sha256:dc639b046a6e2cff5bbe40194ad65936d6ba360b52b3c3fe1d08a82dd50b5e53"},
+    {file = "py-1.8.1-py2.py3-none-any.whl", hash = "sha256:c20fdd83a5dbc0af9efd622bee9a5564e278f6380fffcacc43ba6f43db2813b0"},
+    {file = "py-1.8.1.tar.gz", hash = "sha256:5e27081401262157467ad6e7f851b7aa402c5852dbcb3dae06768434de5752aa"},
 ]
 pylint = [
     {file = "pylint-2.4.4-py3-none-any.whl", hash = "sha256:886e6afc935ea2590b462664b161ca9a5e40168ea99e5300935f6591ad467df4"},
