@@ -23,7 +23,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'memoize',
     'rest_framework',
-    'rest_framework_swagger',
+    'drf_yasg',
     'demo_project.api',
     'demo_project.core',
     'demo_project.demo_app',
