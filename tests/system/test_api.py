@@ -7,4 +7,4 @@ def describe_docs():
     def placeholder(expect):
         user.visit("/api/docs")
 
-        expect(user.browser.title) == "Swagger UI"
+        expect(user.browser.html).contains("Swagger")
