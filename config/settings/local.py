@@ -12,11 +12,19 @@ BASE_URL = f"http://{BASE_DOMAIN}:8000"
 DEBUG = True
 SECRET_KEY = 'dev'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.ngrok.io']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    '.ngrok.io',
+]
 
-INSTALLED_APPS += ['livereload']
+INSTALLED_APPS += [
+    'livereload',
+]
 
-MIDDLEWARE += ['livereload.middleware.LiveReloadScript']
+MIDDLEWARE += [
+    'livereload.middleware.LiveReloadScript',
+]
 
 ###############################################################################
 # Databases

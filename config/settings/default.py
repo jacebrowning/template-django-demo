@@ -54,9 +54,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-            ]
+            ],
         },
-    }
+    },
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
@@ -64,17 +64,17 @@ WSGI_APPLICATION = 'config.wsgi.application'
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
-    'formatters': {'simple': {'format': '%(levelname)s: %(message)s'}},
+    'formatters': {'simple': {'format': '%(levelname)s: %(message)s'},},
     'handlers': {
         'console': {
             'level': 'INFO',
             'class': 'logging.StreamHandler',
             'formatter': 'simple',
-        }
+        },
     },
     'loggers': {
-        'django': {'handlers': ['console'], 'level': 'INFO'},
-        'demo_project': {'handlers': ['console'], 'level': 'DEBUG'},
+        'django': {'handlers': ['console'], 'level': 'INFO',},
+        'demo_project': {'handlers': ['console'], 'level': 'DEBUG',},
     },
 }
 
