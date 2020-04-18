@@ -21,7 +21,6 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'corsheaders',
-    'memoize',
     'rest_framework',
     'drf_yasg',
     'demo_project.api',

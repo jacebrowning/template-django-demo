@@ -256,17 +256,6 @@ tornado = "*"
 
 [[package]]
 category = "main"
-description = "An implementation of memoization technique for Django."
-name = "django-memoize"
-optional = false
-python-versions = "*"
-version = "2.3.0"
-
-[package.dependencies]
-django = "*"
-
-[[package]]
-category = "main"
 description = "Redis Cache Backend for Django"
 name = "django-redis-cache"
 optional = false
@@ -993,7 +982,7 @@ python-versions = "*"
 version = "1.11.2"
 
 [metadata]
-content-hash = "5c39bae5b3c226b6f27cc1688a05c0b0e02868910c67cbc1623976f65e8e3419"
+content-hash = "07dbef668e0b1afa9c86284f3724198acc3cd45ae47b825ca5b8607ccdc21698"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -1111,9 +1100,6 @@ django-grappelli = [
 ]
 django-livereload-server = [
     {file = "django-livereload-server-0.3.2.tar.gz", hash = "sha256:6c8da1cb356d9a7fd044d0a50342574aad168522d5d8d25bbdc4ddd9fd196eab"},
-]
-django-memoize = [
-    {file = "django-memoize-2.3.0.tar.gz", hash = "sha256:85decffbef7d38ffc569dc96527f598e6677bbc01ce29adf722b051da7efd4be"},
 ]
 django-redis-cache = [
     {file = "django-redis-cache-2.1.1.tar.gz", hash = "sha256:06d4e48545243883f88dc9263dda6c8a0012cb7d0cee2d8758d8917eca92cece"},

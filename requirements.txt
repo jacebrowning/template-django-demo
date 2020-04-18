@@ -9,7 +9,6 @@ django==3.0.5
 django-allauth==0.41.0
 django-cors-headers==3.2.1
 django-grappelli==2.14.1
-django-memoize==2.3.0
 django-redis-cache==2.1.1
 djangorestframework==3.11.0
 drf-nested-routers==0.91
