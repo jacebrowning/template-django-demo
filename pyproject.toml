@@ -3,7 +3,7 @@
 name = "demo_project"
 version = "0.0"
 description = ""
-authors = ["Jace Browning <you@yourdomain.com>"]
+authors = ["Your Name <you@yourdomain.com>"]
 
 [tool.poetry.dependencies]
 

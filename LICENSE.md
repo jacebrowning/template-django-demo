@@ -1,5 +1,5 @@
 # License
 
-Copyright &copy; 2020, Jace Browning
+Copyright &copy; 2020, Your Name
 
 All rights reserved.
