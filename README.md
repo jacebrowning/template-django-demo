@@ -1,4 +1,4 @@
-[![CircleCI](https://img.shields.io/circleci/build/github/jacebrowning/template-django-demo)](https://circleci.com/gh/jacebrowning/template-django-demo/tree/main)
+[![CircleCI](https://img.shields.io/circleci/build/github/jacebrowning/template-django-demo)](https://circleci.com/gh/jacebrowning/template-django-demo)
 [![Coveralls](https://img.shields.io/coveralls/github/jacebrowning/template-django-demo)](https://coveralls.io/github/jacebrowning/template-django-demo)
 
 # Overview
