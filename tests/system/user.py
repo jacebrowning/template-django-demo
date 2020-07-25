@@ -1,5 +1,4 @@
 import time
-
 from splinter import Browser
 
 

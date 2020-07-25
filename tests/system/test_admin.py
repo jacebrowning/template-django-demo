@@ -4,6 +4,7 @@ from . import user
 
 
 def describe_login():
+
     def placeholder(expect):
         user.visit("/admin")
 

@@ -25,7 +25,10 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         parser.add_argument(
-            'emails', nargs='?', type=lambda value: value.split(','), default=[],
+            'emails',
+            nargs='?',
+            type=lambda value: value.split(','),
+            default=[],
         )
 
     def handle(self, *, emails, **_options):
@@ -75,7 +78,9 @@ class Command(BaseCommand):
         count = User.objects.count()
         while count < 50:
             with suppress(IntegrityError):
-                user = User.objects.create(username=self.fake_username(),)
+                user = User.objects.create(
+                    username=self.fake_username(),
+                )
                 self.stdout.write(f"Created user: {user}")
                 count += 1
 
