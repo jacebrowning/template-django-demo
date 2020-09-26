@@ -63,7 +63,9 @@ WSGI_APPLICATION = 'config.wsgi.application'
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
-    'formatters': {'simple': {'format': '%(levelname)s: %(message)s'},},
+    'formatters': {
+        'simple': {'format': '%(levelname)s: %(message)s'},
+    },
     'handlers': {
         'console': {
             'level': 'INFO',
@@ -72,8 +74,14 @@ LOGGING = {
         },
     },
     'loggers': {
-        'django': {'handlers': ['console'], 'level': 'INFO',},
-        'demo_project': {'handlers': ['console'], 'level': 'DEBUG',},
+        'django': {
+            'handlers': ['console'],
+            'level': 'INFO',
+        },
+        'demo_project': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+        },
     },
 }
 
