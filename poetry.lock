@@ -343,7 +343,7 @@ python-versions = "*"
 
 [[package]]
 name = "drf-nested-routers"
-version = "0.93.3"
+version = "0.93.4"
 description = "Nested resources for the Django Rest Framework"
 category = "main"
 optional = false
@@ -1475,8 +1475,8 @@ docopt = [
     {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
 ]
 drf-nested-routers = [
-    {file = "drf-nested-routers-0.93.3.tar.gz", hash = "sha256:5bbb394ce382d8392cb7eb1e24eb8ad169bf095b22b8275b8f0f1e6697000434"},
-    {file = "drf_nested_routers-0.93.3-py2.py3-none-any.whl", hash = "sha256:84e946cd486e9ec1fea12a6ca114adc0c68389ccc66e55f6c0c23ce31362485d"},
+    {file = "drf-nested-routers-0.93.4.tar.gz", hash = "sha256:01aa556b8c08608bb74fb34f6ca065a5183f2cda4dc0478192cc17a2581d71b0"},
+    {file = "drf_nested_routers-0.93.4-py2.py3-none-any.whl", hash = "sha256:996b77f3f4dfaf64569e7b8f04e3919945f90f95366838ca5b8bed9dd709d6c5"},
 ]
 drf-yasg = [
     {file = "drf-yasg-1.20.0.tar.gz", hash = "sha256:d50f197c7f02545d0b736df88c6d5cf874f8fea2507ad85ad7de6ae5bf2d9e5a"},
