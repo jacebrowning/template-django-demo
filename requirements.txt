@@ -9,6 +9,7 @@ defusedxml==0.7.1; python_version >= "2.7" and python_full_version < "3.0.0" or 
 dj-database-url==0.4.2
 django-allauth==0.45.0
 django-cors-headers==3.10.0; python_version >= "3.6"
+django-debug-toolbar==3.2.2; python_version >= "3.6"
 django-grappelli==2.15.3
 django-redis==4.12.1; python_version >= "3.5"
 django==3.2.8; python_version >= "3.6"

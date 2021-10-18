@@ -6,6 +6,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_ROOT = os.path.dirname(CONFIG_ROOT)
 
+ALLOW_DEBUG = False
+
 ###############################################################################
 # Core
 
@@ -19,6 +21,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.sites",
     "django.contrib.staticfiles",
+    "debug_toolbar",
     "allauth",
     "allauth.account",
     "corsheaders",
@@ -39,6 +42,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
 ROOT_URLCONF = "config.urls"
@@ -128,3 +132,11 @@ CORS_ORIGIN_ALLOW_ALL = True
 GRAPPELLI_ADMIN_TITLE = "demo_project Admin"
 
 del grappelli.default_app_config  # fixes RemovedInDjango41Warning
+
+###############################################################################
+# Django Debug Toolbar
+
+DEBUG_TOOLBAR_CONFIG = {
+    "SHOW_COLLAPSED": True,
+    "SHOW_TOOLBAR_CALLBACK": "demo_project.core.helpers.allow_debug",
+}
