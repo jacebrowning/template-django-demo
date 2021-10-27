@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.conf.urls import include, url
+from django.urls import include, path
 
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
@@ -27,7 +27,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    url("^", include(root.urls)),
-    url("^client/", include("rest_framework.urls")),
-    url("^docs/", schema_view.with_ui("swagger")),
+    path("", include(root.urls)),
+    path("client/", include("rest_framework.urls")),
+    path("docs/", schema_view.with_ui("swagger")),
 ]

@@ -365,14 +365,14 @@ typing-extensions = "*"
 
 [[package]]
 name = "djangorestframework"
-version = "3.11.2"
+version = "3.12.4"
 description = "Web APIs for Django, made easy."
 category = "main"
 optional = false
 python-versions = ">=3.5"
 
 [package.dependencies]
-django = ">=1.11"
+django = ">=2.2"
 
 [[package]]
 name = "docopt"
@@ -1312,7 +1312,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "7fd0c3780228594ff847a3e6ba9adc41182faf21b002704abcc9858904abd934"
+content-hash = "a99ff1d23954989dd4cb2003d312504c9216ee56aedf386a06088a9fa0baec30"
 
 [metadata.files]
 appnope = [
@@ -1550,8 +1550,8 @@ django-stubs-ext = [
     {file = "django_stubs_ext-0.3.1-py3-none-any.whl", hash = "sha256:a51a3e9e844d4e1cacaaedbb33bf3def78a3956eed5d9575a640bd97ccd99cec"},
 ]
 djangorestframework = [
-    {file = "djangorestframework-3.11.2-py3-none-any.whl", hash = "sha256:5cc724dc4b076463497837269107e1995b1fbc917468d1b92d188fd1af9ea789"},
-    {file = "djangorestframework-3.11.2.tar.gz", hash = "sha256:a5967b68a04e0d97d10f4df228e30f5a2d82ba63b9d03e1759f84993b7bf1b53"},
+    {file = "djangorestframework-3.12.4-py3-none-any.whl", hash = "sha256:6d1d59f623a5ad0509fe0d6bfe93cbdfe17b8116ebc8eda86d45f6e16e819aaf"},
+    {file = "djangorestframework-3.12.4.tar.gz", hash = "sha256:f747949a8ddac876e879190df194b925c177cdeb725a099db1460872f7c0a7f2"},
 ]
 docopt = [
     {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
