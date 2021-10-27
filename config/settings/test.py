@@ -1,3 +1,5 @@
+# mypy: ignore-errors
+
 from .default import *
 
 # BASE_NAME and BASE_DOMAIN are intentionally unset

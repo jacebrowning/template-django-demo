@@ -1,3 +1,5 @@
+# mypy: ignore-errors
+
 from .production import *
 
 BASE_NAME = os.environ["HEROKU_APP_NAME"]
