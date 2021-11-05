@@ -170,6 +170,17 @@ run-production: .envrc install
 	poetry run heroku local release
 	HEROKU_APP_NAME=local poetry run heroku local web --port=$${PORT:-8000}
 
+# DOCUMENTATION TARGETS #######################################################
+
+.PHONY: uml
+uml: install
+	poetry install --extras uml
+	@ echo
+	poetry run pyreverse demo_project -p demo_project -a 1 -f ALL -o png --ignore admin.py,migrations,management,tests
+	mv -f classes_demo_project.png docs/classes.png
+	mv -f packages_demo_project.png docs/packages.png
+	poetry run python manage.py graph_models demo_app --group-models --output=docs/tables.png --exclude-models=TimeStampedModel
+
 # RELEASE TARGETS #############################################################
 
 .PHONY: build
