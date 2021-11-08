@@ -189,8 +189,11 @@ build: install
 
 .PHONY: promote
 promote: install
+	@ echo
 	TEST_SITE=https://staging.demo_project.com $(RUN) pytest tests/system --cache-clear
+	@ echo
 	heroku pipelines:promote --app demo_project-staging --to demo_project
+	@ echo
 	TEST_SITE=https://demo_project.com $(RUN) pytest tests/system
 
 # HELP ########################################################################
