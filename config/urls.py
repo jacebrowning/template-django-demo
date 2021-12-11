@@ -8,7 +8,6 @@ urlpatterns = [
     path("", include("demo_project.demo_app.urls", namespace="demo_app")),
     path("api/", include("demo_project.api.urls")),
     path("admin/", admin.site.urls),
-    path("grappelli/", include("grappelli.urls")),
 ]
 
 if settings.ALLOW_DEBUG:

@@ -5,11 +5,11 @@ jobs:
     working_directory: ~/demo_project
 
     docker:
-      - image: circleci/python:3.9-node-browsers
+      - image: circleci/python:3.9.9-node-browsers
         environment:
           DATABASE_URL: postgres://circleci:@127.0.0.1:5432/demo_project_test
           REDIS_URL: redis://127.0.0.1:6379/0
-      - image: circleci/postgres:13
+      - image: circleci/postgres:13.5
         environment:
           - POSTGRES_USER=circleci
           - POSTGRES_DB=demo_project_test
