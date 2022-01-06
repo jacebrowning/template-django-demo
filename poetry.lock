@@ -1357,7 +1357,7 @@ uml = ["pygraphviz"]
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.9"
-content-hash = "350d1b1f0f1c03698ceb63e0f072b4dcddd4f96acbbc0994e0edc15d18d5af11"
+content-hash = "5e81b2e254a85ea5d8f5a80d27339588339e0c0ea43d77fd350f1ffc67da40f9"
 
 [metadata.files]
 appnope = [
