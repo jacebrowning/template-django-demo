@@ -1,5 +1,7 @@
 # mypy: ignore-errors
 
+import bugsnag
+
 from .default import *
 
 # BASE_NAME and BASE_DOMAIN are intentionally unset
@@ -25,3 +27,10 @@ DATABASES = {
         "HOST": "127.0.0.1",
     }
 }
+
+###############################################################################
+# Bugsnag
+
+bugsnag.configure(release_stage="test")
+
+LOGGING["loggers"]["demo_project"]["handlers"].remove("bugsnag")

@@ -1,5 +1,7 @@
 # mypy: ignore-errors
 
+import bugsnag
+
 from .production import *
 
 BASE_NAME = os.environ["HEROKU_APP_NAME"]
@@ -19,3 +21,8 @@ ALLOWED_HOSTS += [
     ".herokuapp.com",
     # TODO: Add your custom domain
 ]
+
+###############################################################################
+# Bugsnag
+
+bugsnag.configure(release_stage="staging")
