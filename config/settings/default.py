@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "django_extensions",
     "rest_framework",
-    "drf_yasg",
+    # "drf_yasg",
     "demo_project.api",
     "demo_project.core",
     "demo_project.demo_app",
