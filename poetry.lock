@@ -425,32 +425,24 @@ djangorestframework = ">=3.6.0"
 
 [[package]]
 name = "drf-yasg"
-version = "1.20.1.dev31+gd9700db"
+version = "1.20.0"
 description = "Automated generation of real Swagger/OpenAPI 2.0 schemas from Django Rest Framework code."
 category = "main"
 optional = false
 python-versions = ">=3.6"
-develop = false
 
 [package.dependencies]
 coreapi = ">=2.3.3"
 coreschema = ">=0.0.4"
-django = ">=2.2.16"
+Django = ">=2.2.16"
 djangorestframework = ">=3.10.3"
 inflection = ">=0.3.1"
-packaging = ">=21.0"
-pytz = ">=2021.1"
-"ruamel.yaml" = ">=0.16.13"
+packaging = "*"
+"ruamel.yaml" = ">=0.15.34"
 uritemplate = ">=3.0.0"
 
 [package.extras]
 validation = ["swagger-spec-validator (>=2.1.0)"]
-
-[package.source]
-type = "git"
-url = "https://github.com/axnsan12/drf-yasg"
-reference = "d9700dbf8cc80d725a7db485c2d4446c19c29840"
-resolved_reference = "d9700dbf8cc80d725a7db485c2d4446c19c29840"
 
 [[package]]
 name = "executing"
@@ -1419,7 +1411,7 @@ uml = ["pygraphviz"]
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.9"
-content-hash = "93a54e7d780bac4bffa95fab9d22f0baa668fe8b8da082d7df050db2a0377653"
+content-hash = "04410f014f3a72a72c789e65350e6ba7493b63828f7181707e7ba389f218ff73"
 
 [metadata.files]
 appnope = [
@@ -1676,7 +1668,10 @@ drf-nested-routers = [
     {file = "drf-nested-routers-0.93.4.tar.gz", hash = "sha256:01aa556b8c08608bb74fb34f6ca065a5183f2cda4dc0478192cc17a2581d71b0"},
     {file = "drf_nested_routers-0.93.4-py2.py3-none-any.whl", hash = "sha256:996b77f3f4dfaf64569e7b8f04e3919945f90f95366838ca5b8bed9dd709d6c5"},
 ]
-drf-yasg = []
+drf-yasg = [
+    {file = "drf-yasg-1.20.0.tar.gz", hash = "sha256:d50f197c7f02545d0b736df88c6d5cf874f8fea2507ad85ad7de6ae5bf2d9e5a"},
+    {file = "drf_yasg-1.20.0-py2.py3-none-any.whl", hash = "sha256:8b72e5b1875931a8d11af407be3a9a5ba8776541492947a0df5bafda6b7f8267"},
+]
 executing = [
     {file = "executing-0.8.2-py2.py3-none-any.whl", hash = "sha256:32fc6077b103bd19e6494a72682d66d5763cf20a106d5aa7c5ccbea4e47b0df7"},
     {file = "executing-0.8.2.tar.gz", hash = "sha256:c23bf42e9a7b9b212f185b1b2c3c91feb895963378887bb10e64a2e612ec0023"},

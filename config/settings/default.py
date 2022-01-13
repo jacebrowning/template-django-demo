@@ -24,7 +24,8 @@ INSTALLED_APPS = [
     "corsheaders",
     "django_extensions",
     "rest_framework",
-    # "drf_yasg",
+    # TODO: Enable when bug is fixed: https://github.com/axnsan12/drf-yasg/issues/761
+    # 'drf_yasg',
     "demo_project.api",
     "demo_project.core",
     "demo_project.demo_app",
