@@ -301,7 +301,7 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 name = "django-allauth"
-version = "0.47.0"
+version = "0.48.0"
 description = "Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication."
 category = "main"
 optional = false
@@ -453,7 +453,7 @@ python-versions = "*"
 
 [[package]]
 name = "faker"
-version = "11.3.0"
+version = "12.1.0"
 description = "Faker is a Python package that generates fake data for you."
 category = "main"
 optional = false
@@ -461,7 +461,6 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 python-dateutil = ">=2.4"
-text-unidecode = "1.3"
 
 [[package]]
 name = "fire"
@@ -1231,14 +1230,6 @@ optional = false
 python-versions = "*"
 
 [[package]]
-name = "text-unidecode"
-version = "1.3"
-description = "The most basic Text::Unidecode port"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
@@ -1291,7 +1282,7 @@ python-versions = "*"
 
 [[package]]
 name = "types-pyyaml"
-version = "6.0.3"
+version = "6.0.4"
 description = "Typing stubs for PyYAML"
 category = "dev"
 optional = false
@@ -1299,7 +1290,7 @@ python-versions = "*"
 
 [[package]]
 name = "types-requests"
-version = "2.27.7"
+version = "2.27.8"
 description = "Typing stubs for requests"
 category = "dev"
 optional = false
@@ -1310,7 +1301,7 @@ types-urllib3 = "<1.27"
 
 [[package]]
 name = "types-urllib3"
-version = "1.26.7"
+version = "1.26.9"
 description = "Typing stubs for urllib3"
 category = "dev"
 optional = false
@@ -1651,7 +1642,7 @@ django = [
     {file = "Django-4.0.2.tar.gz", hash = "sha256:110fb58fb12eca59e072ad59fc42d771cd642dd7a2f2416582aa9da7a8ef954a"},
 ]
 django-allauth = [
-    {file = "django-allauth-0.47.0.tar.gz", hash = "sha256:2bcf09d4c6e672620981d283f555d643982ac066b71f8947dbd81882a1d7c5e8"},
+    {file = "django-allauth-0.48.0.tar.gz", hash = "sha256:531821ce6a2278168054add13421776c9f8e565cf39926e799fa02d6c29da920"},
 ]
 django-cors-headers = [
     {file = "django-cors-headers-3.11.0.tar.gz", hash = "sha256:eb98389bf7a2afc5d374806af4a9149697e3a6955b5a2dc2bf049f7d33647456"},
@@ -1697,8 +1688,8 @@ executing = [
     {file = "executing-0.8.2.tar.gz", hash = "sha256:c23bf42e9a7b9b212f185b1b2c3c91feb895963378887bb10e64a2e612ec0023"},
 ]
 faker = [
-    {file = "Faker-11.3.0-py3-none-any.whl", hash = "sha256:61f97034cea252b8426d81810afab2f3c27b584f2b4313400a0cc83a9b013ded"},
-    {file = "Faker-11.3.0.tar.gz", hash = "sha256:adbe567e64da6a1097feacab699000e1ad16e17a6592a8f0ae1ee0b7fbf19887"},
+    {file = "Faker-12.1.0-py3-none-any.whl", hash = "sha256:534c9410cd003b794900504d37f0afaf8275bfe8865583250799f696cf227cd3"},
+    {file = "Faker-12.1.0.tar.gz", hash = "sha256:820e55f62b428a4d55f6700358167e84a6ba3f8371e9ef39f9ca03a504dcae18"},
 ]
 fire = [
     {file = "fire-0.4.0.tar.gz", hash = "sha256:c5e2b8763699d1142393a46d0e3e790c5eb2f0706082df8f647878842c216a62"},
@@ -2156,10 +2147,6 @@ stack-data = [
 termcolor = [
     {file = "termcolor-1.1.0.tar.gz", hash = "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"},
 ]
-text-unidecode = [
-    {file = "text-unidecode-1.3.tar.gz", hash = "sha256:bad6603bb14d279193107714b288be206cac565dfa49aa5b105294dd5c4aab93"},
-    {file = "text_unidecode-1.3-py2.py3-none-any.whl", hash = "sha256:1311f10e8b895935241623731c2ba64f4c455287888b18189350b67134a822e8"},
-]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
     {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
@@ -2224,16 +2211,16 @@ types-pytz = [
     {file = "types_pytz-2021.3.4-py3-none-any.whl", hash = "sha256:ccfa2ed29f816e3de2f882541c06ad2791f808a79cfe38265411820190999f0f"},
 ]
 types-pyyaml = [
-    {file = "types-PyYAML-6.0.3.tar.gz", hash = "sha256:6ea4eefa8579e0ce022f785a62de2bcd647fad4a81df5cf946fd67e4b059920b"},
-    {file = "types_PyYAML-6.0.3-py3-none-any.whl", hash = "sha256:8b50294b55a9db89498cdc5a65b1b4545112b6cd1cf4465bd693d828b0282a17"},
+    {file = "types-PyYAML-6.0.4.tar.gz", hash = "sha256:6252f62d785e730e454dfa0c9f0fb99d8dae254c5c3c686903cf878ea27c04b7"},
+    {file = "types_PyYAML-6.0.4-py3-none-any.whl", hash = "sha256:693b01c713464a6851f36ff41077f8adbc6e355eda929addfb4a97208aea9b4b"},
 ]
 types-requests = [
-    {file = "types-requests-2.27.7.tar.gz", hash = "sha256:f38bd488528cdcbce5b01dc953972f3cead0d060cfd9ee35b363066c25bab13c"},
-    {file = "types_requests-2.27.7-py3-none-any.whl", hash = "sha256:2e0e100dd489f83870d4f61949d3a7eae4821e7bfbf46c57e463c38f92d473d4"},
+    {file = "types-requests-2.27.8.tar.gz", hash = "sha256:c2f4e4754d07ca0a88fd8a89bbc6c8a9f90fb441f9c9b572fd5c484f04817486"},
+    {file = "types_requests-2.27.8-py3-none-any.whl", hash = "sha256:8ec9f5f84adc6f579f53943312c28a84e87dc70201b54f7c4fbc7d22ecfa8a3e"},
 ]
 types-urllib3 = [
-    {file = "types-urllib3-1.26.7.tar.gz", hash = "sha256:cfd1fbbe4ba9a605ed148294008aac8a7b8b7472651d1cc357d507ae5962e3d2"},
-    {file = "types_urllib3-1.26.7-py3-none-any.whl", hash = "sha256:3adcf2cb5981809091dbff456e6999fe55f201652d8c360f99997de5ac2f556e"},
+    {file = "types-urllib3-1.26.9.tar.gz", hash = "sha256:abd2d4857837482b1834b4817f0587678dcc531dbc9abe4cde4da28cef3f522c"},
+    {file = "types_urllib3-1.26.9-py3-none-any.whl", hash = "sha256:4a54f6274ab1c80968115634a55fb9341a699492b95e32104a7c513db9fe02e9"},
 ]
 typing-extensions = [
     {file = "typing_extensions-4.0.1-py3-none-any.whl", hash = "sha256:7f001e5ac290a0c0401508864c7ec868be4e701886d5b573a9528ed3973d9d3b"},
