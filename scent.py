@@ -15,8 +15,8 @@ else:
 watch_paths = [
     "demo_project",
     "config",
-    "frontend",
-    "tests",
+    "templates",
+    "tests"
 ]
 
 class options:
