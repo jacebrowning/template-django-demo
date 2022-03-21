@@ -29,6 +29,16 @@ DATABASES = {
 }
 
 ###############################################################################
+# Caches
+
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.filebased.FileBasedCache",
+        "LOCATION": os.path.join(PROJECT_ROOT, ".cache/django"),
+    }
+}
+
+###############################################################################
 # Bugsnag
 
 bugsnag.configure(release_stage="test")
