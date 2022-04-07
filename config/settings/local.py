@@ -23,11 +23,11 @@ ALLOWED_HOSTS = [
 ]
 
 INSTALLED_APPS += [
-    "livereload",
+    "django_browser_reload",
 ]
 
 MIDDLEWARE += [
-    "livereload.middleware.LiveReloadScript",
+    "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
 ###############################################################################
