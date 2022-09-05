@@ -5,18 +5,18 @@ orbs:
 
 jobs:
   build:
-    working_directory: ~/{{cookiecutter.project_name}}
+    working_directory: ~/demo_project
 
     docker:
       - image: cimg/python:3.9.9-node-browsers
         environment:
-          DATABASE_URL: postgres://circleci:@127.0.0.1:5432/{{cookiecutter.project_name}}_test
+          DATABASE_URL: postgres://circleci:@127.0.0.1:5432/demo_project_test
           REDIS_URL: redis://127.0.0.1:6379/0
           
       - image: cimg/postgres:13.5
         environment:
           - POSTGRES_USER=circleci
-          - POSTGRES_DB={{cookiecutter.project_name}}_test
+          - POSTGRES_DB=demo_project_test
           - POSTGRES_HOST_AUTH_METHOD=trust
           
       - image: redis
@@ -31,14 +31,14 @@ jobs:
           command: make doctor
         
       - restore_cache:
-          key: poetry-{% raw %}{{ checksum "poetry.lock" }}{% endraw %}
+          key: poetry-{{ checksum "poetry.lock" }}
 
       - run:
           name: Installing project dependencies
           command: make install
 
       - save_cache:
-          key: poetry-{% raw %}{{ checksum "poetry.lock" }}{% endraw %}
+          key: poetry-{{ checksum "poetry.lock" }}
           paths:
             - .venv
 
@@ -59,7 +59,7 @@ jobs:
           command: make build data test-system
           environment:
             DJANGO_SETTINGS_MODULE: config.settings.staging
-            HEROKU_APP_NAME: {{cookiecutter.project_name}}-staging
+            HEROKU_APP_NAME: demo_project-staging
             SECRET_KEY: staging
 
       - store_artifacts:
