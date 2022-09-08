@@ -46,6 +46,7 @@ endif
 $(BACKEND_DEPENDENCIES): poetry.lock runtime.txt requirements.txt
 	@ rm -rf $(VIRTUAL_ENV)/.poetry-*
 	@ poetry config virtualenvs.in-project true
+	poetry run pip install setuptools
 	poetry install
 	@ mkdir -p staticfiles
 	@ touch $@

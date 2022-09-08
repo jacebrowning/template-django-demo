@@ -35,7 +35,7 @@ jobs:
 
       - run:
           name: Installing project dependencies
-          command: pip install setuptools && make install
+          command: make install
 
       - save_cache:
           key: poetry-{{ checksum "poetry.lock" }}
