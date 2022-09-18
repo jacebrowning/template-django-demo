@@ -4,6 +4,7 @@ from . import user
 
 
 def describe_docs():
+
     def placeholder(expect):
         user.visit("/api/docs")
 

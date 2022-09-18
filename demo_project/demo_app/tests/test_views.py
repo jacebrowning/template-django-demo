@@ -2,7 +2,6 @@
 
 import pytest
 
-
 def describe_status():
     @pytest.fixture
     def url():

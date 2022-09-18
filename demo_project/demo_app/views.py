@@ -1,6 +1,5 @@
-import datetime
-
 from django.http import HttpResponse
+import datetime
 
 import log
 
