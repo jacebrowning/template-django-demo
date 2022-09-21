@@ -405,7 +405,7 @@ djangorestframework = ">=3.6.0"
 
 [[package]]
 name = "drf-yasg"
-version = "1.20.3"
+version = "1.21.3"
 description = "Automated generation of real Swagger/OpenAPI 2.0 schemas from Django Rest Framework code."
 category = "main"
 optional = false
@@ -1387,7 +1387,7 @@ uml = ["pygraphviz"]
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.10"
-content-hash = "628d887591d05b12997b7fc2084d547292b1153e9de99522e3b6f9bd3fa8949a"
+content-hash = "2a89784072dcfc4ba9a65a6c456353a5bd81f68622abdb4fcfa231c7f25d721c"
 
 [metadata.files]
 appnope = [
@@ -1682,8 +1682,8 @@ drf-nested-routers = [
     {file = "drf_nested_routers-0.93.4-py2.py3-none-any.whl", hash = "sha256:996b77f3f4dfaf64569e7b8f04e3919945f90f95366838ca5b8bed9dd709d6c5"},
 ]
 drf-yasg = [
-    {file = "drf-yasg-1.20.3.tar.gz", hash = "sha256:1c66929fba56724c477951ab07266e69bbd0cb280e84b675957df19e3b567958"},
-    {file = "drf_yasg-1.20.3-py2.py3-none-any.whl", hash = "sha256:915a16dae564143ebcbc1787e4aaad38062ccd95d1e6f97c2d33086575335bb8"},
+    {file = "drf-yasg-1.21.3.tar.gz", hash = "sha256:b2eebb438fa641503a08dac791be24183ea26dbcfe371a9824ea91f6e3a988aa"},
+    {file = "drf_yasg-1.21.3-py3-none-any.whl", hash = "sha256:85899b8b173cac7d39af3fea205bdc1a599aed8de3389a3bcccc29b37b9b983e"},
 ]
 executing = [
     {file = "executing-1.0.0-py2.py3-none-any.whl", hash = "sha256:550d581b497228b572235e633599133eeee67073c65914ca346100ad56775349"},
