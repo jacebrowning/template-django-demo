@@ -111,7 +111,7 @@ flask = ["blinker", "flask"]
 
 [[package]]
 name = "certifi"
-version = "2022.9.14"
+version = "2022.9.24"
 description = "Python package for providing Mozilla's CA Bundle."
 category = "main"
 optional = false
@@ -435,7 +435,7 @@ python-versions = "*"
 
 [[package]]
 name = "Faker"
-version = "14.2.0"
+version = "14.2.1"
 description = "Faker is a Python package that generates fake data for you."
 category = "main"
 optional = false
@@ -1117,7 +1117,7 @@ urllib3 = "*"
 
 [[package]]
 name = "setuptools"
-version = "65.3.0"
+version = "65.4.0"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 category = "main"
 optional = false
@@ -1175,7 +1175,7 @@ flask = ["Flask (>=1.0.2)", "cssselect", "lxml (>=2.3.6)"]
 
 [[package]]
 name = "sqlparse"
-version = "0.4.2"
+version = "0.4.3"
 description = "A non-validating SQL parser."
 category = "main"
 optional = false
@@ -1272,7 +1272,7 @@ python-versions = "*"
 
 [[package]]
 name = "types-requests"
-version = "2.28.10"
+version = "2.28.11"
 description = "Typing stubs for requests"
 category = "dev"
 optional = false
@@ -1448,8 +1448,8 @@ bugsnag = [
     {file = "bugsnag-4.2.1.tar.gz", hash = "sha256:3d3e9768acf7405004842992ee35ca2bbc71b1c365a5b846a42290211b92b7a5"},
 ]
 certifi = [
-    {file = "certifi-2022.9.14-py3-none-any.whl", hash = "sha256:e232343de1ab72c2aa521b625c80f699e356830fd0e2c620b465b304b17b0516"},
-    {file = "certifi-2022.9.14.tar.gz", hash = "sha256:36973885b9542e6bd01dea287b2b4b3b21236307c56324fcc3f1160f2d655ed5"},
+    {file = "certifi-2022.9.24-py3-none-any.whl", hash = "sha256:90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382"},
+    {file = "certifi-2022.9.24.tar.gz", hash = "sha256:0d9c601124e5a6ba9712dbc60d9c53c21e34f5f641fe83002317394311bdce14"},
 ]
 cffi = [
     {file = "cffi-1.15.1-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:a66d3508133af6e8548451b25058d5812812ec3798c886bf38ed24a98216fab2"},
@@ -1690,8 +1690,8 @@ executing = [
     {file = "executing-1.0.0.tar.gz", hash = "sha256:98daefa9d1916a4f0d944880d5aeaf079e05585689bebd9ff9b32e31dd5e1017"},
 ]
 Faker = [
-    {file = "Faker-14.2.0-py3-none-any.whl", hash = "sha256:e02c55a5b0586caaf913cc6c254b3de178e08b031c5922e590fd033ebbdbfd02"},
-    {file = "Faker-14.2.0.tar.gz", hash = "sha256:6db56e2c43a2b74250d1c332ef25fef7dc07dcb6c5fab5329dd7b4467b8ed7b9"},
+    {file = "Faker-14.2.1-py3-none-any.whl", hash = "sha256:2e28aaea60456857d4ce95dd12aed767769537ad23d13d51a545cd40a654e9d9"},
+    {file = "Faker-14.2.1.tar.gz", hash = "sha256:daad7badb4fd916bd047b28c8459ef4689e4fe6acf61f6dfebee8cc602e4d009"},
 ]
 fire = [
     {file = "fire-0.4.0.tar.gz", hash = "sha256:c5e2b8763699d1142393a46d0e3e790c5eb2f0706082df8f647878842c216a62"},
@@ -2092,8 +2092,8 @@ selenium = [
     {file = "selenium-3.141.0.tar.gz", hash = "sha256:deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d"},
 ]
 setuptools = [
-    {file = "setuptools-65.3.0-py3-none-any.whl", hash = "sha256:2e24e0bec025f035a2e72cdd1961119f557d78ad331bb00ff82efb2ab8da8e82"},
-    {file = "setuptools-65.3.0.tar.gz", hash = "sha256:7732871f4f7fa58fb6bdcaeadb0161b2bd046c85905dbaa066bdcbcc81953b57"},
+    {file = "setuptools-65.4.0-py3-none-any.whl", hash = "sha256:c2d2709550f15aab6c9110196ea312f468f41cd546bceb24127a1be6fdcaeeb1"},
+    {file = "setuptools-65.4.0.tar.gz", hash = "sha256:a8f6e213b4b0661f590ccf40de95d28a177cd747d098624ad3f69c40287297e9"},
 ]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
@@ -2108,8 +2108,8 @@ splinter = [
     {file = "splinter-0.16.0.tar.gz", hash = "sha256:dbbbbee217d47d63bf607afdd2e2bdcee173dfbf492480115a5b99b201963ef0"},
 ]
 sqlparse = [
-    {file = "sqlparse-0.4.2-py3-none-any.whl", hash = "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"},
-    {file = "sqlparse-0.4.2.tar.gz", hash = "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae"},
+    {file = "sqlparse-0.4.3-py3-none-any.whl", hash = "sha256:0323c0ec29cd52bceabc1b4d9d579e311f3e4961b98d174201d5622a23b85e34"},
+    {file = "sqlparse-0.4.3.tar.gz", hash = "sha256:69ca804846bb114d2ec380e4360a8a340db83f0ccf3afceeb1404df028f57268"},
 ]
 stack-data = [
     {file = "stack_data-0.5.0-py3-none-any.whl", hash = "sha256:66d2ebd3d7f29047612ead465b6cae5371006a71f45037c7e2507d01367bce3b"},
@@ -2196,8 +2196,8 @@ types-PyYAML = [
     {file = "types_PyYAML-6.0.11-py3-none-any.whl", hash = "sha256:8f890028123607379c63550179ddaec4517dc751f4c527a52bb61934bf495989"},
 ]
 types-requests = [
-    {file = "types-requests-2.28.10.tar.gz", hash = "sha256:97d8f40aa1ffe1e58c3726c77d63c182daea9a72d9f1fa2cafdea756b2a19f2c"},
-    {file = "types_requests-2.28.10-py3-none-any.whl", hash = "sha256:45b485725ed58752f2b23461252f1c1ad9205b884a1e35f786bb295525a3e16a"},
+    {file = "types-requests-2.28.11.tar.gz", hash = "sha256:7ee827eb8ce611b02b5117cfec5da6455365b6a575f5e3ff19f655ba603e6b4e"},
+    {file = "types_requests-2.28.11-py3-none-any.whl", hash = "sha256:af5f55e803cabcfb836dad752bd6d8a0fc8ef1cd84243061c0e27dee04ccf4fd"},
 ]
 types-urllib3 = [
     {file = "types-urllib3-1.26.24.tar.gz", hash = "sha256:a1b3aaea7dda3eb1b51699ee723aadd235488e4dc4648e030f09bc429ecff42f"},

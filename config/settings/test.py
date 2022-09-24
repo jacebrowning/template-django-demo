@@ -23,7 +23,7 @@ LOGGING["loggers"]["demo_project"]["level"] = "DEBUG"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "demo_project_test",
+        "NAME": "demo_project",  # automatically prefixed with "test_"
         "HOST": "127.0.0.1",
     }
 }
