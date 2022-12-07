@@ -91,6 +91,7 @@ data: install migrate ## Database | Seed data for manual testing
 
 .PHONY: reset
 reset: install ## Database | Create a new database, migrate, and seed it
+	- dropdb test_demo_project
 	- dropdb demo_project_dev
 	- createdb demo_project_dev
 	make data
