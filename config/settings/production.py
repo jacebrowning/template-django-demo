@@ -2,7 +2,7 @@ import os
 
 import dj_database_url
 
-from .default import *
+from .default import *  # pylint: disable=wildcard-import,unused-wildcard-import
 
 BASE_NAME = os.environ["HEROKU_APP_NAME"]
 BASE_DOMAIN = f"{BASE_NAME}.com"
