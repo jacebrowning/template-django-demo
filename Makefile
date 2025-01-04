@@ -10,7 +10,7 @@ endif
 all: doctor check test ## CI | Run all validation targets
 
 .PHONY: dev
-dev: install ## CI | Rerun all validation targests in a loop
+dev: install ## CI | Rerun all validation targets in a loop
 	@ rm -rf $(FAILURES)
 	$(RUN) sniffer
 
@@ -116,6 +116,7 @@ check-frontend: install
 format-backend: install
 	$(RUN) isort $(PYTHON_PACKAGES) tests
 	$(RUN) black $(PYTHON_PACKAGES) tests
+	$(RUN) djlint --reformat templates
 
 ifdef DISABLE_COVERAGE
 PYTEST_OPTIONS := --no-cov --disable-warnings

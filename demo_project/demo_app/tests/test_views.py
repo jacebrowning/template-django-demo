@@ -12,4 +12,4 @@ def describe_status():
         response = client.get(url)
 
         html = response.content.decode()
-        expect(html).includes("2023")
+        expect(html).includes("2025")

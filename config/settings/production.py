@@ -32,12 +32,15 @@ DATABASES["default"] = dj_database_url.config()
 ###############################################################################
 # Caches
 
-CACHES = {
+CACHES: dict = {
     "default": {
         "BACKEND": "django.core.cache.backends.redis.RedisCache",
         "LOCATION": os.environ["REDIS_URL"],
     }
 }
+
+if "rediss" in os.environ["REDIS_URL"]:
+    CACHES["default"]["OPTIONS"] = {"ssl_cert_reqs": None}
 
 ###############################################################################
 # Authentication
